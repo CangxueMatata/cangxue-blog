@@ -3,25 +3,26 @@
 layout: home
 
 hero:
-  name: "cangxue-blog"
-  text: "Cangxue's blog"
-  tagline: My great project tagline
+  name: "Welcome to"
+  text: "苍雪Matataのblog"
+  tagline: 终于也到了要写日记的年纪了吗lol
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: My Bilibili 
+      link: https://space.bilibili.com/504032319
+    - theme: brand
+      text: Start
+      link: /开始
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: D
-  - details: lalala
+  - title: 这是标题吗
+    details: 不知道填什么
+  - title: 还有？
+    details: 真的不知道填什么
+  - title: 我了个豆
+    details: ...
 ---
 

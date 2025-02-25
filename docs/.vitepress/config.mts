@@ -5,6 +5,7 @@ export default defineConfig({
   title: "cangxue-blog",
   description: "Cangxue's blog",
   srcDir: 'src-md', // Define the source route (start from /docs)
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
