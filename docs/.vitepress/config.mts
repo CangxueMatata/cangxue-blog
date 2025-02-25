@@ -6,8 +6,10 @@ export default defineConfig({
   description: "Cangxue's blog",
   srcDir: 'src-md', // Define the source route (start from /docs)
   lastUpdated: true,
+  head: [["link", { rel: "icon", href: "/favicon.png"}]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -25,6 +27,14 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    lastUpdated:{
+      text: "更新时间",
+      formatOptions:{
+        dateStyle:"full",
+        timeStyle:"medium"
+      }
+    }
   }
 })
